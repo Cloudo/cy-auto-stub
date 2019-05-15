@@ -1,0 +1,32 @@
+{
+  "name": "cy-auto-stub",
+  "version": "1.0.0",
+  "description": "Record and replay network requests for Cypress",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cloudo/cy-auto-stub.git"
+  },
+  "keywords": [
+    "cypress",
+    "stub",
+    "record",
+    "replay"
+  ],
+  "author": "Cloudo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cloudo/cy-auto-stub/issues"
+  },
+  "homepage": "https://github.com/Cloudo/cy-auto-stub#readme",
+  "devDependencies": {
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7",
+    "prettier": "^1.17.1"
+  }
+}
