@@ -2,8 +2,6 @@
   "name": "cy-auto-stub",
   "version": "1.0.0",
   "description": "Record and replay network requests for Cypress",
-  "main": "src/index.js",
-  "module": "src/index.js",
   "scripts": {
     "precommit": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1"
